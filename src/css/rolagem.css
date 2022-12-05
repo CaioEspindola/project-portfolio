@@ -1,0 +1,42 @@
+/*Estilização do scrool da pagina*/
+body::-webkit-scrollbar {
+  width: 25px;
+}
+
+/*Estilização do scroll do cartão*/
+::-webkit-scrollbar {
+  background-color: black;
+  width: 15px;
+  border-radius: 5px;
+}
+
+/*Estilização da barra*/
+::-webkit-scrollbar-thumb {
+  background-color: #bef;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar:horizontal {
+  display: none;
+}
+
+/*Responsive*/
+@media screen and (max-width: 1440px) {
+  body::-webkit-scrollbar {
+    width: 15px;
+  }
+
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+}
+
+@media (max-width: 425px) {
+  body::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar {
+    width: 3px;
+  }
+}

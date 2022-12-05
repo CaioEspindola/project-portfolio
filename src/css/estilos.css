@@ -1,0 +1,445 @@
+body {
+  background-color: #21262d;
+  height: 100vh;
+  width: 100vw;
+
+  /*img do Astronauta de fundo*/
+  background-image: url(/src/imagens/astronauta.gif);
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: right;
+}
+
+.card_container {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  background-color: hsla(100, 5%, 15%, 0.75);
+  width: 1000px;
+  height: auto;
+  border: 12px solid #bef;
+  border-radius: 10px;
+  /*overflow: hidden; /*Tranbordar. O transbordar fica escondido dentro do elemento*/
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.card_perfil {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+
+  font-family: "Press Start 2P", cursive;
+  font-size: 34px;
+  color: azure;
+}
+
+.card_perfil h2 {
+  font-size: 30px;
+  color: #00ccff;
+}
+
+.card_perfil img {
+  width: 40%;
+  border-radius: 200px;
+  border: 10px solid #bef;
+}
+
+.card_content {
+  font-family: "Baloo 2", cursive;
+}
+
+.tabs {
+  display: flex;
+  height: 140px;
+}
+
+.tabs img {
+  height: 120px;
+  width: 120px;
+  border: none;
+}
+
+.tabs :hover {
+  background-color: #414141;
+}
+
+.tab1 {
+  display: flex;
+  justify-content: center;
+  background-color: #292929;
+  width: 50%;
+  padding: 10px 0;
+  cursor: pointer;
+  transition: background-color 0.5s ease-in-out;
+  border: 5px solid #414141;
+  border-radius: 5px;
+}
+
+.tab2 {
+  display: flex;
+  justify-content: center;
+  background-color: #292929;
+  width: 50%;
+  padding: 10px 0;
+  cursor: pointer;
+  transition: background-color 0.5s ease-in-out;
+  border: 5px solid #414141;
+  border-radius: 5px;
+}
+
+.tab_hide {
+  display: none;
+}
+
+.infos_abas {
+  background-color: #252525;
+  width: 900px;
+}
+
+.informacao {
+  height: auto;
+  width: 900px;
+  padding: 10px;
+}
+
+.sub_titulo {
+  font-size: 40px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.descricao_sobre {
+  font-size: 36px;
+  max-height: 600px;
+  /*Para deixar o conteudo maior do que o elemento e somar com o overflow para ganhar a barra de rolagem*/
+  overflow-y: auto;
+  /*Tansbordar no Eixo y, Ativando a barra de rolagem*/
+  padding: 10px;
+  text-align: center;
+}
+
+.habilidades_icones {
+  display: flex;
+  justify-content: center;
+}
+
+.habilidades_icones img {
+  width: 80px;
+  height: 80px;
+  border: none;
+  border-radius: 0;
+}
+
+.habilidades_nomes {
+  font-size: 26px;
+  color: #00ccff;
+}
+
+.redes_sociais {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+  align-items: center;
+  max-height: 600px;
+  overflow-y: auto;
+}
+
+.redes_logos {
+  font-size: 30px;
+  line-height: 1;
+}
+
+.redes_logos img {
+  width: 150px;
+  height: 150px;
+  border: none;
+}
+
+.redes_sociais li a {
+  width: 250px;
+  display: block;
+  color: #f3f3f3;
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.redes_sociais li a:hover {
+  opacity: 0.8;
+}
+
+/*Styles of Projetos*/
+
+.projetos_titulo h2 {
+  display: flex;
+  justify-content: center;
+
+  font-family: "Press Start 2P", cursive;
+  font-size: 36px;
+  color: azure;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.projetos_lista {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.projetos_lista img {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: all ease-in-out 0.3s;
+}
+
+.projetos_lista img:hover {
+  transform: scale(1.2);
+  transition: all ease-in-out 0.3s;
+}
+
+.gif_astronauta-mobile {
+  display: none;
+}
+
+/*Styles of Footer*/
+
+.footer_container {
+  display: flex;
+  background-image: linear-gradient(to right, #29303d, #808183);
+  width: 100vw;
+  height: 100px;
+  margin-top: 620px;
+
+  /*para deixar o rodapé fixo embaixo e responsivo tb*/
+  /*position: fixed;
+    bottom: 0;
+    left: 0;*/
+
+  justify-content: center;
+  align-items: center;
+  font-family: "Press Start 2P", cursive;
+  font-size: 14px;
+  color: aliceblue;
+}
+
+/*Responsive*/
+
+/*Professor clei: 
+max-width é: quando a tela for menor que "x" px!
+Para telas menores que a resolução definida
+
+/*Para telas entre 1024px até 1440*/
+
+@media screen and (max-width: 1440px) {
+  .card {
+    width: 370px;
+    border: 5px solid #bef;
+  }
+
+  .card_perfil {
+    font-size: 14px;
+  }
+
+  .card_perfil h2 {
+    font-size: 12px;
+  }
+
+  .card_perfil img {
+    width: 50%;
+    border-radius: 100px;
+    border: 4px solid #bef;
+  }
+
+  .tabs {
+    height: 80px;
+  }
+
+  .tabs img {
+    width: 60px;
+    height: 60px;
+    border: none;
+  }
+
+  .tab1 {
+    border: 3px solid #414141;
+  }
+
+  .tab2 {
+    border: 3px solid #414141;
+  }
+
+  .infos_abas {
+    width: 350px;
+  }
+
+  .informacao {
+    width: 350px;
+  }
+
+  .sub_titulo {
+    font-size: 20px;
+  }
+
+  .descricao_sobre {
+    font-size: 18px;
+  }
+
+  .habilidades_icones img {
+    width: 40px;
+    height: 40px;
+    border: none;
+  }
+
+  .habilidades_nomes {
+    font-size: 16px;
+  }
+
+  .redes_logos {
+    font-size: 11px;
+    line-height: 0.8;
+  }
+
+  .redes_sociais img {
+    width: 50px;
+    height: 50px;
+    border: none;
+  }
+
+  .redes_sociais li a {
+    font-size: 20px;
+  }
+
+  .projetos_titulo h2 {
+    font-size: 20px;
+  }
+
+  .projetos_lista {
+    gap: 50px;
+  }
+
+  .projetos_lista img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .footer_container {
+    height: 50px;
+    font-size: 6px;
+  }
+}
+
+/*Para Tablet com telas de até 800px*/
+
+@media screen and (max-width: 800px) {
+  body {
+    background-image: none;
+  }
+
+  .redes_logos {
+    font-size: 10px;
+    line-height: 0.8;
+  }
+
+  .projetos_lista img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .gif_astronauta-mobile {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/*Para smartphone com tela de 320px até 425px*/
+
+@media (max-width: 425px) {
+  .card {
+    width: 300px;
+  }
+
+  .card_perfil {
+    font-size: 10px;
+  }
+
+  .card_perfil h2 {
+    font-size: 8px;
+  }
+
+  .tabs {
+    height: 65px;
+  }
+
+  .tabs img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .infos_abas {
+    width: 280px;
+  }
+
+  .informacao {
+    width: 280px;
+  }
+
+  .sub_titulo {
+    font-size: 17px;
+  }
+
+  .descricao_sobre {
+    font-size: 15px;
+  }
+
+  .habilidades_icones img {
+    width: 25px;
+    height: 25px;
+    border: none;
+  }
+
+  .habilidades_nomes {
+    font-size: 12px;
+  }
+
+  .redes_logos {
+    font-size: 10px;
+  }
+
+  .redes_sociais img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .redes_sociais li a {
+    font-size: 20px;
+  }
+
+  .projetos_titulo h2 {
+    font-size: 16px;
+  }
+
+  .projetos_lista {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .gif_astronauta-mobile img {
+    width: 320px;
+    height: 320px;
+  }
+
+  .footer_container {
+    font-size: 5px;
+  }
+}
