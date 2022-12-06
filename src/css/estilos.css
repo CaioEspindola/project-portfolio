@@ -3,12 +3,14 @@ body {
   height: 100vh;
   width: 100vw;
 
-  /*img do Astronauta de fundo*/
+  /*img gif astronaut backgound*/
   background-image: url(/src/imagens/astronauta.gif);
   background-repeat: no-repeat;
   background-size: 50%;
   background-position: right;
 }
+
+/*Styles Business Card*/
 
 .card_container {
   display: flex;
@@ -21,7 +23,6 @@ body {
   height: auto;
   border: 12px solid #bef;
   border-radius: 10px;
-  /*overflow: hidden; /*Tranbordar. O transbordar fica escondido dentro do elemento*/
   padding: 20px;
   margin-top: 30px;
 }
@@ -51,6 +52,8 @@ body {
 .card_content {
   font-family: "Baloo 2", cursive;
 }
+
+/*Styles Tabs*/
 
 .tabs {
   display: flex;
@@ -95,51 +98,53 @@ body {
   display: none;
 }
 
-.infos_abas {
+/*Styles Information About me*/
+
+.information_container {
   background-color: #252525;
   width: 900px;
 }
 
-.informacao {
+.information {
   height: auto;
   width: 900px;
   padding: 10px;
 }
 
-.sub_titulo {
+.information_subtitle {
   font-size: 40px;
   margin-bottom: 10px;
   text-align: center;
 }
 
-.descricao_sobre {
+.description_about_me {
   font-size: 36px;
   max-height: 600px;
-  /*Para deixar o conteudo maior do que o elemento e somar com o overflow para ganhar a barra de rolagem*/
   overflow-y: auto;
-  /*Tansbordar no Eixo y, Ativando a barra de rolagem*/
   padding: 10px;
   text-align: center;
 }
 
-.habilidades_icones {
+.skills_icon {
   display: flex;
   justify-content: center;
 }
 
-.habilidades_icones img {
+.skills_icon img {
   width: 80px;
   height: 80px;
   border: none;
   border-radius: 0;
 }
 
-.habilidades_nomes {
-  font-size: 26px;
+.skills_names {
+  font-size: 34px;
   color: #00ccff;
 }
 
-.redes_sociais {
+/*Styles Social Media*/
+
+.social_media_brands {
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -149,18 +154,18 @@ body {
   overflow-y: auto;
 }
 
-.redes_logos {
+.social_media_name {
   font-size: 30px;
   line-height: 1;
 }
 
-.redes_logos img {
+.social_media_brands img {
   width: 150px;
   height: 150px;
   border: none;
 }
 
-.redes_sociais li a {
+.social_media_brands li a {
   width: 250px;
   display: block;
   color: #f3f3f3;
@@ -170,13 +175,9 @@ body {
   transition: opacity 0.3s ease-in-out;
 }
 
-.redes_sociais li a:hover {
-  opacity: 0.8;
-}
+/*Styles Projects*/
 
-/*Styles of Projetos*/
-
-.projetos_titulo h2 {
+.projects_title h2 {
   display: flex;
   justify-content: center;
 
@@ -187,14 +188,14 @@ body {
   margin-bottom: 100px;
 }
 
-.projetos_lista {
+.projects_list {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 100px;
 }
 
-.projetos_lista img {
+.projects_list img {
   width: 500px;
   height: 500px;
   object-fit: cover;
@@ -202,12 +203,12 @@ body {
   transition: all ease-in-out 0.3s;
 }
 
-.projetos_lista img:hover {
+.projects_list img:hover {
   transform: scale(1.2);
   transition: all ease-in-out 0.3s;
 }
 
-.gif_astronauta-mobile {
+.gif_astronaut_mobile {
   display: none;
 }
 
@@ -220,11 +221,6 @@ body {
   height: 100px;
   margin-top: 620px;
 
-  /*para deixar o rodapé fixo embaixo e responsivo tb*/
-  /*position: fixed;
-    bottom: 0;
-    left: 0;*/
-
   justify-content: center;
   align-items: center;
   font-family: "Press Start 2P", cursive;
@@ -234,11 +230,7 @@ body {
 
 /*Responsive*/
 
-/*Professor clei: 
-max-width é: quando a tela for menor que "x" px!
-Para telas menores que a resolução definida
-
-/*Para telas entre 1024px até 1440*/
+/*For screens between 1024px to 1440*/
 
 @media screen and (max-width: 1440px) {
   .card {
@@ -278,56 +270,56 @@ Para telas menores que a resolução definida
     border: 3px solid #414141;
   }
 
-  .infos_abas {
+  .information_container {
     width: 350px;
   }
 
-  .informacao {
+  .information {
     width: 350px;
   }
 
-  .sub_titulo {
+  .information_subtitle {
     font-size: 20px;
   }
 
-  .descricao_sobre {
+  .description_about_me {
     font-size: 18px;
   }
 
-  .habilidades_icones img {
+  .skills_icon img {
     width: 40px;
     height: 40px;
     border: none;
   }
 
-  .habilidades_nomes {
+  .skills_names {
     font-size: 16px;
   }
 
-  .redes_logos {
+  .social_media_name {
     font-size: 11px;
     line-height: 0.8;
   }
 
-  .redes_sociais img {
+  .social_media_brands img {
     width: 50px;
     height: 50px;
     border: none;
   }
 
-  .redes_sociais li a {
+  .social_media_brands li a {
     font-size: 20px;
   }
 
-  .projetos_titulo h2 {
+  .projects_title h2 {
     font-size: 20px;
   }
 
-  .projetos_lista {
+  .projects_list {
     gap: 50px;
   }
 
-  .projetos_lista img {
+  .projects_list img {
     width: 300px;
     height: 300px;
   }
@@ -338,30 +330,30 @@ Para telas menores que a resolução definida
   }
 }
 
-/*Para Tablet com telas de até 800px*/
+/*Tablet. For screen up to 800px*/
 
 @media screen and (max-width: 800px) {
   body {
     background-image: none;
   }
 
-  .redes_logos {
+  .social_media_name {
     font-size: 10px;
     line-height: 0.8;
   }
 
-  .projetos_lista img {
+  .projects_list img {
     width: 200px;
     height: 200px;
   }
 
-  .gif_astronauta-mobile {
+  .gif_astronaut_mobile {
     display: flex;
     justify-content: center;
   }
 }
 
-/*Para smartphone com tela de 320px até 425px*/
+/*Smartphone with screens between 320px to 425px*/
 
 @media (max-width: 425px) {
   .card {
@@ -385,56 +377,56 @@ Para telas menores que a resolução definida
     height: 50px;
   }
 
-  .infos_abas {
+  .information_container {
     width: 280px;
   }
 
-  .informacao {
+  .information {
     width: 280px;
   }
 
-  .sub_titulo {
+  .information_subtitle {
     font-size: 17px;
   }
 
-  .descricao_sobre {
+  .description_about_me {
     font-size: 15px;
   }
 
-  .habilidades_icones img {
+  .skills_icon img {
     width: 25px;
     height: 25px;
     border: none;
   }
 
-  .habilidades_nomes {
+  .skills_names {
     font-size: 12px;
   }
 
-  .redes_logos {
+  .social_media_name {
     font-size: 10px;
   }
 
-  .redes_sociais img {
+  .social_media img {
     width: 40px;
     height: 40px;
   }
 
-  .redes_sociais li a {
+  .social_media li a {
     font-size: 20px;
   }
 
-  .projetos_titulo h2 {
+  .projects_title h2 {
     font-size: 16px;
   }
 
-  .projetos_lista {
+  .projects_list {
     display: flex;
     flex-direction: column;
     gap: 50px;
   }
 
-  .gif_astronauta-mobile img {
+  .gif_astronaut_mobile img {
     width: 320px;
     height: 320px;
   }
