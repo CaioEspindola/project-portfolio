@@ -1,10 +1,10 @@
 body::-webkit-scrollbar {
-  width: 20px;
+  width: 10px;
 }
 
 ::-webkit-scrollbar {
   background-color: black;
-  width: 10px;
+  width: 5px;
   border-radius: 5px;
 }
 
