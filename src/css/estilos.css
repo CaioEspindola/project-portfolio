@@ -119,7 +119,7 @@ body {
 
 .description_about_me {
   font-size: 18px;
-  max-height: 600px;
+  max-height: 400px;
   overflow-y: auto;
   padding: 10px;
   text-align: center;
@@ -150,7 +150,7 @@ body {
   gap: 10px;
   text-align: center;
   align-items: center;
-  max-height: 600px;
+  max-height: 200px;
   overflow-y: auto;
 }
 
@@ -182,7 +182,7 @@ body {
   justify-content: center;
 
   font-family: "Press Start 2P", cursive;
-  font-size: 20px;
+  font-size: 16px;
   color: azure;
   margin-top: 100px;
   margin-bottom: 100px;
@@ -196,8 +196,8 @@ body {
 }
 
 .projects_list img {
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   object-fit: cover;
   border-radius: 10px;
   transition: all ease-in-out 0.3s;
@@ -284,6 +284,7 @@ body {
 
   .description_about_me {
     font-size: 36px;
+    max-height: 600px;
   }
 
   .skills_icon img {
@@ -294,6 +295,10 @@ body {
 
   .skills_names {
     font-size: 34px;
+  }
+
+  .social_media_brands {
+    max-height: 600px;
   }
 
   .social_media_name {
@@ -307,12 +312,8 @@ body {
     border: none;
   }
 
-  /*.social_media_brands li a {
-    font-size: 20px;
-  }*/
-
   .projects_title h2 {
-    font-size: 36px;
+    font-size: 34px;
   }
 
   .projects_list {
@@ -320,8 +321,8 @@ body {
   }
 
   .projects_list img {
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
   }
 
   .footer_container {
