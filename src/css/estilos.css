@@ -4,7 +4,7 @@ body {
   width: 100vw;
 
   /*img gif astronaut background*/
-  background-image: url(/src/imagens/astronauta.gif);
+  background-image: url(../assets/astronauta.gif);
   background-repeat: no-repeat;
   background-size: 50%;
   background-position: right;
