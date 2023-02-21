@@ -3,7 +3,7 @@ body {
   height: 100vh;
   width: 100vw;
   /*astronaut background*/
-  background-image: url(../assets/astronauta.gif);
+  background-image: url(../assets/astronaut.gif);
   background-repeat: no-repeat;
   background-size: 50%;
   background-position: right;
@@ -244,6 +244,10 @@ body {
     line-height: 0.8;
   }
 
+  .projects_list {
+    margin: 10%;
+  }
+
   .projects_list img {
     width: 200px;
     height: 200px;
@@ -253,6 +257,7 @@ body {
     display: flex;
     justify-content: center;
   }
+
   .footer_container {
     font-size: 5px;
     margin-top: 50px;
@@ -261,6 +266,9 @@ body {
 
 /*Mobile*/
 @media screen and (min-width: 320px) and (max-width: 425px) {
+  body {
+    background-image: none
+  }
 
   .card_container {
     max-width: 20rem;
@@ -336,218 +344,16 @@ body {
     gap: 50px;
   }
 
-  .gif_astronaut_mobile img {
+  .gif_astronaut_mobile {
+    display: flex;
+    justify-content: center;
     width: 320px;
     height: 320px;
+    margin: auto;
   }
-
+ 
   .footer_container {
     font-size: 5px;
     margin-top: 50px;
   }
 }
-
-/*For screens between 1024px to 1440*/
-/* BACKUP RESPONSIVE FOR A TEST
-
-@media screen and (max-width: 1440px) {
-  .card {
-    width: 370px;
-    border: 5px solid #bef;
-  }
-
-  .card_perfil {
-    font-size: 14px;
-  }
-
-  .card_perfil h2 {
-    font-size: 12px;
-  }
-
-  .card_perfil img {
-    width: 50%;
-    border-radius: 100px;
-    border: 4px solid #bef;
-  }
-
-  .tabs {
-    height: 80px;
-  }
-
-  .tabs img {
-    width: 60px;
-    height: 60px;
-    border: none;
-  }
-
-  .tab1 {
-    border: 3px solid #414141;
-  }
-
-  .tab2 {
-    border: 3px solid #414141;
-  }
-
-  .information_container {
-    width: 350px;
-  }
-
-  .information {
-    width: 350px;
-  }
-
-  .information_subtitle {
-    font-size: 20px;
-  }
-
-  .description_about_me {
-    font-size: 18px;
-  }
-
-  .skills_icon img {
-    width: 40px;
-    height: 40px;
-    border: none;
-  }
-
-  .skills_names {
-    font-size: 16px;
-  }
-
-  .social_media_name {
-    font-size: 11px;
-    line-height: 0.8;
-  }
-
-  .social_media_brands img {
-    width: 50px;
-    height: 50px;
-    border: none;
-  }
-
-  .social_media_brands li a {
-    font-size: 20px;
-  }
-
-  .projects_title h2 {
-    font-size: 20px;
-  }
-
-  .projects_list {
-    gap: 50px;
-  }
-
-  .projects_list img {
-    width: 300px;
-    height: 300px;
-  }
-
-  .footer_container {
-    height: 50px;
-    font-size: 6px;
-  }
-}
-
-
-/*For screens 4k 2560px
-
-@media screen and (min-width: 2560px) {
-  .card {
-    width: 1000px;
-    border: 12px solid #bef;
-  }
-
-  .card_perfil {
-    font-size: 34px;
-  }
-
-  .card_perfil h2 {
-    font-size: 30px;
-  }
-
-  .card_perfil img {
-    width: 40%;
-    border-radius: 200px;
-    border: 10px solid #bef;
-  }
-
-  .tabs {
-    height: 140px;
-  }
-
-  .tabs img {
-    width: 120px;
-    height: 120px;
-    border: none;
-  }
-
-  .tab1 {
-    border: 5px solid #414141;
-  }
-
-  .tab2 {
-    border: 5px solid #414141;
-  }
-
-  .information_container {
-    width: 900px;
-  }
-
-  .information {
-    width: 900px;
-  }
-
-  .information_subtitle {
-    font-size: 40px;
-  }
-
-  .description_about_me {
-    font-size: 36px;
-    max-height: 600px;
-  }
-
-  .skills_icon img {
-    width: 80px;
-    height: 80px;
-    border: none;
-  }
-
-  .skills_names {
-    font-size: 34px;
-  }
-
-  .social_media_brands {
-    max-height: 600px;
-  }
-
-  .social_media_name {
-    font-size: 30px;
-    line-height: 1;
-  }
-
-  .social_media_brands img {
-    width: 150px;
-    height: 150px;
-    border: none;
-  }
-
-  .projects_title h2 {
-    font-size: 34px;
-  }
-
-  .projects_list {
-    gap: 100px;
-  }
-
-  .projects_list img {
-    width: 400px;
-    height: 400px;
-  }
-
-  .footer_container {
-    height: 100px;
-    font-size: 14px;
-  }
-}
-
-*/
