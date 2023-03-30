@@ -22,5 +22,7 @@ https://caio-portfolio-xi.vercel.app/
 
 <h3>Social media🐱‍🏍</h3>
 
-[![LINKEDIN](https://img.shields.io/badge/-Linkedin-05122A?style=flat&color=ff69b4&logo=linkedin)](https://www.linkedin.com/in/caio-esp%C3%ADndola/).
+![LINKEDIN](https://img.shields.io/badge/-Linkedin-05122A?style=flat&color=ff69b4&logo=linkedin)
+
+https://www.linkedin.com/in/caio-esp%C3%ADndola/
 
