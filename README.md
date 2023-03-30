@@ -1,9 +1,30 @@
-# Project-Portfolio
+<h1>Portfolio Project.</h1>
 
-This application intends to present some of the projects developed by me.
+<h2>🐱‍👤Features:</h2>
+
+- This application intends to present some of the projects developed by me.
+- Deploy is in [Vercel](https://vercel.com).
+
+<h2>🤖Tech:</h2>
+
+![HTML](https://img.shields.io/badge/-HTML-05122A?style=flat&color=blue&logo=HTML5)
+![CSS](https://img.shields.io/badge/-CSS-05122A?style=flat&color=blue&logo=CSS3)
+![JAVASCRIPT](https://img.shields.io/badge/-javaScript-05122A?style=flat&color=blueviolet&logo=JAVASCRIPT)
+
+<h2>📺Preview:</h2>
+
+![project-portfolio-github](https://user-images.githubusercontent.com/99665225/228974844-9526e74f-858f-40f0-949d-37708c5f0d35.jpg)
+
+![project-portfolio-github2](https://user-images.githubusercontent.com/99665225/228974778-9069456f-32ff-4e66-93f2-189ed074ec44.jpg)
+
+<h2>🕹Link Website:</h2>
 
 https://caio-portfolio-xi.vercel.app/
 
+<h3>🐱‍🏍Social media:</h3>
 
-![home-portfolio](https://user-images.githubusercontent.com/99665225/220182222-626c2e12-fd62-4413-ab2b-7da7051eccee.png)
-![home-projects2](https://user-images.githubusercontent.com/99665225/224738536-0bd56821-a768-4232-99fb-d16463ef9891.png)
+![LINKEDIN](https://img.shields.io/badge/-Linkedin-05122A?style=flat&color=ff69b4&logo=linkedin) 
+
+https://linkedin.com/in/caio-espíndola
+
+
