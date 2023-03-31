@@ -24,7 +24,7 @@
 https://caio-portfolio-xi.vercel.app/
 
 <h3>🐱‍🏍Social media:</h3>
-<a href="https://linkedin.com/in/caio-espíndola" {:target="_blank"}>
+<a href="https://linkedin.com/in/caio-espíndola">
 <img src="https://img.shields.io/badge/-Linkedin-05122A?style=flat&color=ff69b4&logo=linkedin"/>
 </a>
 
