@@ -7,12 +7,14 @@
 
 <h2>🤖Tech:</h2>
 
-<a href="h2">
+<a href="#">
 <img src="https://img.shields.io/badge/-HTML-05122A?style=flat&color=blue&logo=HTML5"/>
 </a>
+
 <a href="#">
 <img src="https://img.shields.io/badge/-CSS-05122A?style=flat&color=blue&logo=CSS3"/>
 </a>
+
 <a href="#">
 <img src="https://img.shields.io/badge/-javaScript-05122A?style=flat&color=blueviolet&logo=JAVASCRIPT"/>
 </a>
