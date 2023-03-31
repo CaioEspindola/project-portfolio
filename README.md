@@ -7,9 +7,11 @@
 
 <h2>🤖Tech:</h2>
 
-![HTML](https://img.shields.io/badge/-HTML-05122A?style=flat&color=blue&logo=HTML5)
-![CSS](https://img.shields.io/badge/-CSS-05122A?style=flat&color=blue&logo=CSS3)
-![JAVASCRIPT](https://img.shields.io/badge/-javaScript-05122A?style=flat&color=blueviolet&logo=JAVASCRIPT)
+<a href="#">
+<img src="https://img.shields.io/badge/-HTML-05122A?style=flat&color=blue&logo=HTML5"/>
+<img src="https://img.shields.io/badge/-CSS-05122A?style=flat&color=blue&logo=CSS3"/>
+<img src="https://img.shields.io/badge/-javaScript-05122A?style=flat&color=blueviolet&logo=JAVASCRIPT"/>
+</a>
 
 <h2>📺Preview:</h2>
 
@@ -22,9 +24,11 @@
 https://caio-portfolio-xi.vercel.app/
 
 <h3>🐱‍🏍Social media:</h3>
+<a href="https://linkedin.com/in/caio-espíndola" target="_blank">
+<img src="https://img.shields.io/badge/-Linkedin-05122A?style=flat&color=ff69b4&logo=linkedin"/>
+</a>
 
-![LINKEDIN](https://img.shields.io/badge/-Linkedin-05122A?style=flat&color=ff69b4&logo=linkedin) 
 
-https://linkedin.com/in/caio-espíndola
+
 
 
