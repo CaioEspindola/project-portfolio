@@ -172,7 +172,7 @@ body {
 
 /*Styles Projects*/
 
-.projects_title {
+ .projects_title {
   display: flex;
   justify-content: center;
 
@@ -183,7 +183,8 @@ body {
   margin-bottom: 100px;
 }
 
-.projects_list {
+/* Style Display Flex*/
+/*.projects_list {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -209,6 +210,51 @@ body {
   font-size: .6875rem;
   color: #FFFF;
   margin-top: 40px;  
+} */
+
+/* Style Display Grid*/
+.projects_container {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects_list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px;
+  justify-items: center;
+  text-align: center;
+}
+
+.projects_list li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projects_list img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: all ease-in-out 0.3s;
+}
+
+.projects_list img:hover {
+  transform: scale(1.2);
+  transition: all ease-in-out 0.3s;
+}
+
+.projects_name {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 0.6875rem;
+  color: #FFFF;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .gif_astronaut_mobile {
@@ -245,12 +291,7 @@ body {
   }
 
   .projects_list {
-    margin: 10%;
-  }
-
-  .projects_list img {
-    width: 200px;
-    height: 200px;
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .gif_astronaut_mobile {
@@ -339,9 +380,8 @@ body {
   }
 
   .projects_list {
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
   }
 
   .gif_astronaut_mobile {
