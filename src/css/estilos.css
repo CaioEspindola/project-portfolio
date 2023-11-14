@@ -122,14 +122,14 @@ body {
 
 .skills_icon {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .skills_icon img {
   width: 40px;
   height: 40px;
   border: none;
-  border-radius: 0;
+  border-radius: 0;  
 }
 
 .skills_names {
